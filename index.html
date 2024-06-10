@@ -3,12 +3,12 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>Do Campo á Cidade: Criando Oportunidades</title>
+        <title>Do Campo à Cidade: Criando Oportunidades</title>
         <link rel="stylesheet" href="styless.css">
     </head>
     <body>
         <header>
-            <h1>Do Campo á Cidade: Criando Oportunidades</h1>
+            <h1>Do Campo à Cidade: Criando Oportunidades</h1>
             <nav>
                 <ul>
                     <li><a href="#home">Início</a></li>
@@ -22,12 +22,12 @@
         <section id="home">
             <div class="banner">
                 <h2>Bem-vindo</h2>
-                <p>"Explorando as oportunidades que surgem quando o campo e a cidade se conecta."</p>
+                <p>"Explorando as oportunidades que surgem quando o campo e à cidade se conecta."</p>
             </div>
         </section>
 
         <section id="about">
-            <h2>Sobro</h2>
+            <h2>Sobre</h2>
             <p>"Este projeto visa destacar as oportunidades de desenvolvimento sistentável e inovador que emergem da integração entre áreas rurais e urbanas."</p>
         </section>
 
@@ -63,9 +63,31 @@
             </div>
             <div class="news-card">
                 <h3>Tecnologia no campo</h3>
-                <p> Veja como a tecnologia es</p>
+                <p> Veja como a tecnologia está transformando as práticas agrícolas e criando novas oportunidades</p>
+                <a href="#">leia mais</a>
             </div>
         </section>
+
+        <section id="comtact">
+            <h2>Contato</h2>
+            <form id="contact-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <small class="error" id="name-error">Por favor, insira seu nome.</small>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <small class="error" id="email=error">Por favor, insira um email válido.</small>
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                <small class="error" id="messge-error">Por favor, insira sua mensagem</small>
+                <button type="submit">Enviar</button>                
+            </form>
+            <div id="response"></div>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Do Campo à cidade. Todos os direitos reservados.</p>
+        </footer>
         
         
     </body>
